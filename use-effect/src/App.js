@@ -1,3 +1,6 @@
+/**
+ * Fetching data with useEffect hook
+ */
 import React, { useState, useEffect } from "react";
 import "./App.css";
 
@@ -15,6 +18,11 @@ function App() {
     fetch(`https://jsonplaceholder.typicode.com/${resourceType}`)
       .then((response) => response.json())
       .then((json) => setItems(json));
+
+    // useEffect hook unmounted
+    return () => {
+      console.log("Adding your cleanup logic here if there is any...");
+    };
   }, [resourceType]);
 
   return (
