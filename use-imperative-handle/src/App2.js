@@ -1,7 +1,7 @@
 /**
  * useImperativeHandle Hook
  *
- * use case: handle muliple dom elements inside a ref custom component
+ * use case: manipulate multiple dom elements inside a ref custom component
  *
  */
 import React, { useState, useRef } from "react";
