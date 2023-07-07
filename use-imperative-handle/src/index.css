@@ -7,7 +7,38 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.modal {
+  width: 300px;
+  height: 300px;
+  z-index: 999;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 0);
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+}
+
+.modal .close-btn {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.modal .modal-header {
+  margin-top: 72px;
+}
+
+.modal .modal-body {
+  margin-top: 20px;
+}
+
+.modal .confirm-btn {
+  margin: 20px 10px;
+}
+
+.modal button:focus {
+  color: #fff;
+  background-color: pink;
 }
