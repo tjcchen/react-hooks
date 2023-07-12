@@ -16,6 +16,8 @@ Optional Hooks: useLayoutEffect, useDebugValue, useImperativeHandle, useId
 
 custom-hooks-collection1: useToggle, useTimeout, useDebounce, useUpdateEffect, useArray
 
+custom-hooks-collection2: usePrevious, useStateWithHistory, useStorage, useAsync, useFetch
+
 
 ## License
 MIT
