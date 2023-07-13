@@ -13,15 +13,17 @@ const useStateWithHistory = (defaultValue, { capacity = 10 } = {}) => {
       const resolvedValue = typeof v === "function" ? v(value) : v;
 
       if (historyRef.current[pointerRef.current] !== resolvedValue) {
-        // expand history index
         if (pointerRef.current < historyRef.current.length - 1) {
+          // removing the bottom elements,
+          // the rest elements will be remain in the history array
           historyRef.current.splice(pointerRef.current + 1);
         }
         // append new value to history
         historyRef.current.push(resolvedValue);
 
+        // remove the top position item
         while (historyRef.current.length > capacity) {
-          historyRef.current.shift(); // remove the top position item
+          historyRef.current.shift();
         }
         pointerRef.current = historyRef.current.length - 1;
       }
