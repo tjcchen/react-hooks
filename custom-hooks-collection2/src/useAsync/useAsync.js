@@ -8,7 +8,7 @@ const useAsync = (callback, dependencies = []) => {
   const [error, setError] = useState();
   const [value, setValue] = useState();
 
-  // when dependencies changed, we'll invoke the callbackMemoized function
+  // when dependencies change, we'll invoke the callbackMemoized function
   const callbackMemoized = useCallback(() => {
     setLoading(true);
     setError(undefined);
