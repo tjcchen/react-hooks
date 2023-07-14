@@ -18,6 +18,8 @@ custom-hooks-collection1: useToggle, useTimeout, useDebounce, useUpdateEffect, u
 
 custom-hooks-collection2: usePrevious, useStateWithHistory, useStorage, useAsync, useFetch
 
+custom-hooks-collection3: useScript, useDeepCompareEffect, useEventListener, useOnScreen, useWindowSize
+
 
 ## License
 MIT
