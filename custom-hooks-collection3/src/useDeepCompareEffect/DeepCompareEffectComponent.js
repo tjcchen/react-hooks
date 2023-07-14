@@ -11,6 +11,9 @@ const DeepCompareEffectComponent = () => {
 
   // the reason why this useEffect will be trigged everytime when the UI updates,
   // even the person object does not change, is that useEffect compare two different person objects
+  // two approaches to get around this referential equality issue:
+  // 1. useMemo
+  // 2. custom useDeepCompareEffect hook
   useEffect(() => {
     useEffectCountRef.current.textContent =
       parseInt(useEffectCountRef.current.textContent) + 1;
