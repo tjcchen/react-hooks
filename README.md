@@ -20,6 +20,8 @@ custom-hooks-collection2: usePrevious, useStateWithHistory, useStorage, useAsync
 
 custom-hooks-collection3: useScript, useDeepCompareEffect, useEventListener, useOnScreen, useWindowSize
 
+custom-hooks-collection4: useMediaQuery, useGeolocation, useStateWithValidation, useSize, useEffectOnce
+
 
 ## License
 MIT
