@@ -7,6 +7,7 @@ const useStateWithValidation = (validationFunc, initialValue) => {
   const [state, setState] = useState(initialValue);
   const [isValid, setIsValid] = useState(() => validationFunc(state));
 
+  // setState
   const onChange = useCallback(
     (nextState) => {
       const value =
