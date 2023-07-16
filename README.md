@@ -1,6 +1,6 @@
 ## React-Hooks
 
-react hooks collection.
+React hooks collection.
 
 
 ## Hooks Categories
@@ -24,4 +24,4 @@ custom-hooks-collection4: useMediaQuery, useGeolocation, useStateWithValidation,
 
 
 ## License
-MIT
+This project is licensed under the terms of the MIT license.
