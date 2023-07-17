@@ -22,6 +22,8 @@ custom-hooks-collection3: useScript, useDeepCompareEffect, useEventListener, use
 
 custom-hooks-collection4: useMediaQuery, useGeolocation, useStateWithValidation, useSize, useEffectOnce
 
+custom-hooks-collection5: useClickOutside, useDarkMode, useCopyToClipboard, useCookie, useTranslation
+
 
 ## License
 This project is licensed under the terms of the MIT license.
