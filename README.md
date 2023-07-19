@@ -24,6 +24,8 @@ custom-hooks-collection4: useMediaQuery, useGeolocation, useStateWithValidation,
 
 custom-hooks-collection5: useClickOutside, useDarkMode, useCopyToClipboard, useCookie, useTranslation
 
+custom-hooks-collection6: useOnlineStatus, useRenderCount, useDebugInformation, useHover, useLongPress
+
 
 ## License
 This project is licensed under the terms of the MIT license.
