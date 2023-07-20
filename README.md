@@ -14,17 +14,17 @@ Optional Hooks: useLayoutEffect, useDebugValue, useImperativeHandle, useId
 
 ## Custom React Hooks
 
-custom-hooks-collection1: useToggle, useTimeout, useDebounce, useUpdateEffect, useArray
+Custom-hooks-1: useToggle, useTimeout, useDebounce, useUpdateEffect, useArray
 
-custom-hooks-collection2: usePrevious, useStateWithHistory, useStorage, useAsync, useFetch
+Custom-hooks-2: usePrevious, useStateWithHistory, useStorage, useAsync, useFetch
 
-custom-hooks-collection3: useScript, useDeepCompareEffect, useEventListener, useOnScreen, useWindowSize
+Custom-hooks-3: useScript, useDeepCompareEffect, useEventListener, useOnScreen, useWindowSize
 
-custom-hooks-collection4: useMediaQuery, useGeolocation, useStateWithValidation, useSize, useEffectOnce
+Custom-hooks-4: useMediaQuery, useGeolocation, useStateWithValidation, useSize, useEffectOnce
 
-custom-hooks-collection5: useClickOutside, useDarkMode, useCopyToClipboard, useCookie, useTranslation
+Custom-hooks-5: useClickOutside, useDarkMode, useCopyToClipboard, useCookie, useTranslation
 
-custom-hooks-collection6: useOnlineStatus, useRenderCount, useDebugInformation, useHover, useLongPress
+Custom-hooks-6: useOnlineStatus, useRenderCount, useDebugInformation, useHover, useLongPress
 
 
 ## License
