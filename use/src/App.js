@@ -1,5 +1,7 @@
-import { useState, useId } from "react";
-import Data from "./Data";
+import { useState, useId, Suspense } from "react";
+import ErrorBoundary from "./ErrorBoundary";
+// import Data from "./Data";
+import Data from "./Data2";
 
 const URLS = {
   USERS: "https://jsonplaceholder.typicode.com/users",
@@ -37,7 +39,14 @@ function App() {
         />
         <label htmlFor={`${id}-comments`}>Comments</label>
       </div>
-      <Data url={url} />
+      {/* with use hook */}
+      <ErrorBoundary fallback={<div>Error</div>}>
+        <Suspense fallback={<div>Loading...</div>}>
+          <Data url={url} shouldFetch />
+        </Suspense>
+      </ErrorBoundary>
+      {/* traditional way of fetching */}
+      {/* <Data url={url} /> */}
     </>
   );
 }
